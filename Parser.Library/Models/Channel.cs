@@ -18,5 +18,6 @@ namespace Parser.Library.Models
         public String TimeToLive { get; set; } // TTL Amount of minutes the feed is cache before refreshed from source
         public Image Image { get; set; }
         public IEnumerable<Item> Items { get; set; }
+
     }
 }
